@@ -1,0 +1,13 @@
+package edu.nyu.assesment;
+
+public class StaticMain {
+	public static void main(String[] args) {
+		StaticSample sample=new StaticSample("Spandhana" ,"Vallakati");
+		StaticSample sample1=new StaticSample("Sanjana", "Vallakati");
+		StaticSample sample2=new StaticSample("Vajrender","Mangalapally");
+		System.out.println(sample);
+		System.out.println(sample1);
+		System.out.println(sample2);
+	}
+
+}

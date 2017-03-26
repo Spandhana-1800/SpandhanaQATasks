@@ -1,0 +1,13 @@
+public class FinalSample {
+	private int sum;
+	private final int NUMBER;
+	
+	public FinalSample(int x){
+		NUMBER = x;
+	}
+	public void add(){
+		sum=sum+NUMBER;
+
+	}
+
+}
