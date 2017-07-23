@@ -9,4 +9,6 @@ package io.egen.soap;
 
 public interface HelloWorld extends java.rmi.Remote {
     public java.lang.String sayHelloWorld(java.lang.String name) throws java.rmi.RemoteException;
+    public void method1();
 }
+
