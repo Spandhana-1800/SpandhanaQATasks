@@ -23,6 +23,7 @@ public class HelloWorldSoapBindingStub extends org.apache.axis.client.Stub imple
     private static void _initOperationDesc1(){
         org.apache.axis.description.OperationDesc oper;
         org.apache.axis.description.ParameterDesc param;
+   System.out.println("Hi this is a new change");
         oper = new org.apache.axis.description.OperationDesc();
         oper.setName("sayHelloWorld");
         param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("http://soap.egen.io", "name"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"), java.lang.String.class, false, false);
